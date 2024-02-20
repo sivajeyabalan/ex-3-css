@@ -1,0 +1,122 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap:20px;
+    padding-right: 2%;
+    position: absolute;
+    right:0;
+}
+body {
+    background-image: url(hostipal.jpg);
+    background-size: cover;
+    color : black;
+}
+a {
+    text-decoration: none;
+    color : black;
+}
+.para {
+    padding: 0 10%;
+    margin: 5% 0;
+    font-size: large;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight:900;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  .signup-login {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+  }
+  .description {
+    padding: 20px;
+    font-size: 18px;
+    color: #444;
+  }
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+  }
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  table,tr,th,td {
+    border:1px solid black;
+    border-spacing: 10px;
+ }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .fixed-image {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    z-index: 1;
+  }
+  .fixed-image:hover {
+    transform: scale(1.1);
+  }
+  .form-container {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    padding: 20px;
+    border: 2px solid #ddd;
+    background-color: #f9f9f9;
+    display: none;
+    z-index: 1;
+  }
+  .services {
+    animation: changeService 5s infinite;
+    z-index: 1;
+    width: 330px;
+    height: 200px;
+    display: flex;
+   padding-top: 30px;
+   margin-left: 15%;
+  }
+
+  .img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+    padding: 10%;
+  }
+  @keyframes changeService {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    50% { opacity: 0; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+  }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Hospital Mangement</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container" >
+            <div class="header" >
+                <h1>Apollo</h1>
+                <ul>
+                    <li><a href="#">Login up</a></li>
+                    <li><a href="#">Sign up</a></li>
+                </ul>
+        </div>
+            <div class="para">Over the last 25 years Apollo Hospitals has become the largest integrated private hospital group in Asia with expertise in managing hospitals, clinics, health insurance, healthcare IT, Telemedicine, Education, Pharmacy retail & Medical business process outsourcing.
+
+It owns & manages over 10000 beds across 51 hospitals, 1517 pharmacies & 102 clinics & holds the distinction of being the first amongst Indian hospitals to be accredited by Joint Commission International, USA. At present five Apollo hospitals at New Delhi, Bangalore, Chennai, Hyderabad & Dhaka are accredited by JCI. The group has always pioneered introduction of the latest world class technology in India at its hospitals like 320 Slice CT, Cyber-knife, & Computer Navigated Surgery.
+
+Renowned for its World class clinical talent & patient care, Apollo Hospitals today are a leading destination for a number of patients from all over the world who come to us in India not just for the great value but also for advanced procedures like Liver Transplants, Cardiac, Orthopedic, Spine surgery & Cancer treatments.
+
+Apollo Hospitals has also launched Apollo Lifeline. It offers you services such as booking appointments, diabetes management, emergency services as well as general information.
+Apollo Lifeline Numbers:
+National: 1860 - 500 – 1066
+International: 0091 - 404 - 344 – 1066</div>
+<div class="table" >
+<table>
+    <tr>
+      <td><img src="mri_scan.jpeg" alt="Facility 1"></td>
+      <td><img src="mri_scan.jpeg" alt="Facility 2"></td>
+      <td><img src="mri_scan.jpeg" alt="Facility 3"></td>
+    </tr>
+    <tr>
+      <td>Facility 1 Description</td>
+      <td>Facility 2 Description</td>
+      <td>Facility 3 Description</td>
+    </tr>
+  </table>
+</div>
+  <div class="fixed-image" onclick="showForm()">
+    <img src="contact-icon.png" alt="Contact Us">
+  </div>
+  
+  <div class="form-container" id="formContainer">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+      <label for="address">Address:</label><br>
+      <input type="text" id="address" name="address" required><br>
+      <label for="preferences">Preferences:</label><br>
+      <input type="text" id="preferences" name="preferences"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  
+  <div class="services">
+    <img src="24.jpg" alt="Service 1" class="img">
+    <img src="govt_img.jpeg" alt="Service 2" class="img">
+    <img src="24.jpg" alt="Service 3" class="img">
+  </div>
+  
+  <script>
+    function showForm() {
+      document.getElementById("formContainer").style.display = "block";
+    }
+  </script>
+    </body>
+</html>
